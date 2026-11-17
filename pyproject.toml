@@ -72,6 +72,7 @@ training = [
 ]
 test = [
     "pytest>=7",
+    "huggingface_hub>=0.23",
 ]
 # OpenAI provider for myelin.agent.OrchestratedAgent (only imported on demand).
 openai = [
